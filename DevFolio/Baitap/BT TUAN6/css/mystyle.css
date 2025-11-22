@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+/*import font*/
+@font-face {
+	src: url("../font/LavishlyYours-Regular.ttf");
+	font-family: coTam; /*đặt tên font tùy ý*/
+}
+
+h1 {
+	color: #f48b34;
+	font-family: coTam;
+}
+h4 {
+	color: #04843C;
+	text-align: center;
+}
+p {
+	text-align: justify;
+}
+/*==============style MENU==============*/
+
+.menu {/*style div chứa menu*/
+	
+}
+.menu ul {
+	list-style: none;
+	padding-left: 0px;
+}
+.menu ul li {
+	float: left;
+	padding: 20px 30px;
+}
+.menu ul li a {
+	text-decoration: none;
+	color: #04843c;
+	font-weight: bold;
+}
+.menu ul li a:hover {
+	color: #f48b34;
+}
+/*style BEST SELLER*/
+.frame {
+	border: #04843c dashed 2px;
+	padding: 10px;
+	border-radius: 20px;
+	margin: 10px;
+}
